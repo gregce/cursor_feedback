@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# But allow these specific files
+!chat_analyzer.py
+!poetry.lock
+!pyproject.toml
+!simplified_chat.json
+!.gitignore
+
+# Still ignore these even if they would be included above
+.DS_Store
+__pycache__/
+*.pyc 

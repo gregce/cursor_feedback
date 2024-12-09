@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "chat-simplifier"
+version = "0.1.0"
+description = "Simplifies chat JSON files"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+streamlit = "^1.32.0"
+pandas = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
